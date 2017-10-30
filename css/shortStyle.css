@@ -1,0 +1,233 @@
+/* W3.CSS 4.05 October 2017 by Jan Egil and Borge Refsnes */
+
+html {
+    box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+footer,
+header {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+    outline-width: 0;
+}
+
+img {
+    border-style: none;
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+
+/* End extract */
+
+
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif;}
+body {font-size: 16px;}
+
+html,
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.w3-image {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    margin-bottom: -8px;
+} 
+
+a {
+    color: inherit;
+}
+
+:disabled * {
+    pointer-events: none;
+}
+
+.w3-display-container {
+    position: relative;
+}
+
+.w3-container:after,
+.w3-container:before,
+.w3-row-padding:after,
+.w3-row-padding:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w3-col {
+    float: left;
+    width: 100%;
+}
+
+@media (min-width:601px) {
+    .w3-col.m6 {
+        width: 49.99999%;
+    }
+}
+
+@media (min-width:993px) {
+    .w3-col.l4 {
+        width: 33.33333%;
+    }
+    .w3-col.l8 {
+        width: 66.66666%;
+    }
+}
+
+.w3-content {
+    max-width: 980px;
+    margin: auto;
+}
+
+@media (max-width:600px) {
+    .w3-hide-small {
+        display: none!important;
+    }
+}
+
+.w3-round-large {
+    border-radius: 8px;
+}
+
+.w3-row-padding,
+.w3-row-padding>.w3-col {
+    padding: 0 8px;
+}
+
+.w3-container {
+    padding: 0.01em 16px;
+}
+
+.w3-animate-opacity {
+    animation: opac 0.8s;
+}
+
+@keyframes opac {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.w3-grayscale {
+    filter: grayscale(75%);
+}
+
+.w3-medium {
+    font-size: 15px!important;
+}
+
+.w3-xlarge {
+    font-size: 24px!important;
+}
+
+.w3-xxxlarge {
+    font-size: 48px!important;
+}
+
+.w3-jumbo {
+    font-size: 64px!important;
+}
+
+.w3-center {
+    text-align: center!important;
+}
+
+.w3-padding-32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+
+.w3-padding-64 {
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+
+
+/* Colors */
+
+.w3-white {
+    color: #000!important;
+    background-color: #fff!important;
+}
+
+.w3-black {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+.w3-light-grey {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+.w3-dark-grey {
+    color: #fff!important;
+    background-color: #616161!important;
+}
+
+.w3-text-red {
+    color: #f44336!important;
+}
+
+.w3-text-green,
+.w3-hover-text-green:hover {
+    color: #4CAF50!important;
+}
