@@ -1,0 +1,18 @@
+--------- beginning of crash
+10-27 18:02:00.443 12823 12823 E AndroidRuntime: FATAL EXCEPTION: main
+10-27 18:02:00.443 12823 12823 E AndroidRuntime: Process: me.guillaumin.android.osmtracker, PID: 12823
+10-27 18:02:00.443 12823 12823 E AndroidRuntime: java.lang.IllegalArgumentException: View=DecorView@f078a9d[] not attached to window manager
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at android.view.WindowManagerGlobal.findViewLocked(WindowManagerGlobal.java:473)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at android.view.WindowManagerGlobal.removeView(WindowManagerGlobal.java:382)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at android.view.WindowManagerImpl.removeViewImmediate(WindowManagerImpl.java:128)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at android.app.Dialog.dismissDialog(Dialog.java:727)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at android.app.Dialog.dismiss(Dialog.java:710)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at me.guillaumin.android.osmtracker.gpx.ExportTrackTask.onProgressUpdate(ExportTrackTask.java:163)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at me.guillaumin.android.osmtracker.gpx.ExportTrackTask.onProgressUpdate(ExportTrackTask.java:45)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:680)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at android.os.Handler.dispatchMessage(Handler.java:102)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at android.os.Looper.loop(Looper.java:154)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at android.app.ActivityThread.main(ActivityThread.java:6642)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at java.lang.reflect.Method.invoke(Native Method)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1468)
+10-27 18:02:00.443 12823 12823 E AndroidRuntime:        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1358)
