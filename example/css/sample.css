@@ -9,12 +9,24 @@ font-size:36pt;
 font-size:24pt;
 }
 #nav ul{
-
+list-style:none;
+margin:0;
+padding:0;
+min-width:60px;
 }
 #nav ul li{
-
+display:inline;
+border-style:solid;
+border-color:#000;
+}
+#nav ul li.selected{
+background-color:#ddd;
+}
+#nav ul li:hover{
+background-color:#aaa;
 }
 #mainBody{
+margin: 20px 0;
 font-size:12pt;
 display:block;
 width:100%;
