@@ -1,0 +1,31 @@
+#header{
+display:block;
+width:100%;
+}
+#title{
+font-size:36pt;
+}
+#nav{
+font-size:24pt;
+}
+#nav ul{
+
+}
+#nav ul li{
+
+}
+#mainBody{
+font-size:12pt;
+display:block;
+width:100%;
+}
+#lead_drop_data{
+
+}
+#drop_zone {
+border-color:#000;
+border-style: solid;
+overflow-y:auto;
+overflow-x:auto;
+min-height:100px;
+}

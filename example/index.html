@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/sample.css" type="text/css">
+<title></title>
+<script src="scripts/dropFile.js"></script>
+</head>
+<body>
+<div id="header">
+  <span id="title">Framework Miner Client</span>
+  <div id="nav">
+    <ul>
+      <li>Home</li>
+      <li>My Account</li>
+      <li>About Us</li>
+      <li class="selected">Tools</li>
+    </ul>
+  </div>
+</div>
+<div id="mainBody">
+  <span id="lead_drop_data"> Drop Your App Here </span>
+  <div id="drop_zone" ondrop="drop_handler(event);" ondragover="dragover_handler(event);" ondragend="dragend_handler(event);"> 
+    Drag and drop your files here. 
+  </div>
+</div>
+
+</body>
+</html>
